@@ -32,7 +32,7 @@ function App() {
           <RequireAuth>
             <ManageServices></ManageServices>
           </RequireAuth>}></Route>
-        <Route path="/checkout" element={
+        <Route path="/checkout/:serviceId" element={
           <RequireAuth>
             <Checkout></Checkout>
           </RequireAuth>
